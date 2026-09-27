@@ -92,7 +92,6 @@ sanitizer'ами. Ожидаемый вывод: `955 проверок, 0 оши
 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F401xC`, пути к
 `Core/Inc`, `Drivers/STM32F4xx_HAL_Driver/Inc`, `Drivers/CMSIS/...`, линковка
 с `STM32F401CCUX_FLASH.ld`, `--specs=nano.specs --specs=nosys.specs`.
-Около 8 КБ flash и 2.5 КБ ОЗУ.
 
 Если PWMB ещё не заведён на PA10: `-DMOTORS_PWMB_ON_PA10=0`.
 
